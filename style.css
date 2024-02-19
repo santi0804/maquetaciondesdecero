@@ -81,6 +81,7 @@
     max-width: 180px;
     max-height: 180px;
 }
+
 .container4 {
 
         width: 788px;
@@ -194,7 +195,7 @@ header a {
     padding: 8px;
     background-color: white; /* Fondo blanco */
     display: flex;
-    margin-top: -220px;
+    margin-top: -210px;
     margin-left: 2px; /* Espacio a la izquierda */
     display: flex;
     flex-direction: column; 
@@ -204,3 +205,47 @@ header a {
     .inner-container-input {
         margin-bottom: 10px; /* Espacio entre elementos */
     }
+
+    
+.container6 {
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre cajas */
+    border: 5px solid black;
+    margin-top: -220px;
+    margin-left: 965px; /* Espacio a la izquierda */
+}
+/* Estilos para la lista vertical */
+.vertical-list {
+    margin-top: 20px; /* Espacio entre la lista y las cajas */
+}
+
+.vertical-list label {
+    display: block;
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+.container7 {
+    width: 150px;
+    height: 300px;
+    background-color: lightgray;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para el área de texto */
+.text-area-container7 {
+    margin-top: 10px; /* Espacio entre la lista y el área de texto */
+}
+
+textarea {
+    width: 780px;
+    height: 70px; /* Altura predeterminada */
+    margin-left: 965px; /* Espacio a la izquierda */
+    margin-bottom: 50px;
+    text-align: left;
+    
+}
