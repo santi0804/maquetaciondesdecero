@@ -86,7 +86,7 @@
 
         width: 788px;
         height: 660px;
-        border: 5px solid black; /* Línea exterior */
+        border: 3px solid black; /* Línea exterior */
         padding: 10px;
         background-color: white; /* Fondo blanco */
         display: flex;
@@ -103,8 +103,8 @@
 
     width: 800px;
     height: 200px;
-    padding: 5px;
-    border: 4px solid  black;
+    padding: 8px;
+    border: 3px solid  black;
     margin-bottom: 5px; /* Espacio entre las cajas */
     flex-direction: column;
 
@@ -151,7 +151,7 @@ header a {
 
     width: 30px; 
     height: 0px;
-    padding: 5px;
+    padding: 4px;
     box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
     border: 2px solid black; /* Línea interior */
     text-align: center;
@@ -191,7 +191,7 @@ header a {
 
     width: 765px;
     height: 190px;
-    border: 5px solid black; /* Línea exterior */
+    border: 3px solid black; /* Línea exterior */
     padding: 8px;
     background-color: white; /* Fondo blanco */
     display: flex;
@@ -212,7 +212,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     gap: 10px; /* Espacio entre cajas */
-    border: 5px solid black;
+    border: 3px solid black;
     margin-top: -220px;
     margin-left: 965px; /* Espacio a la izquierda */
 }
