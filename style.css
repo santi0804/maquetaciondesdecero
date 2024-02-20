@@ -30,7 +30,7 @@
 
 /* Estilos para los cuadros */
 
-.outer-container2 {
+.outer-container-2 {
     width: 1500px;
     height: 150px;
     border: 5px solid #000; /* Línea exterior */
@@ -39,18 +39,21 @@
     margin-left: 240px; /* Espacio a la izquierda */
 }
 
-.inner-container2 { 
+.inner-container-2 { 
     display: flex;
-    justify-content: space-between;
+    
 }
 
-.small-box-inner2 {
+.small-box-inner-2 {
     width: 150px;
-    height: 60px;
-    border: 2px solid #000; /* Línea interior */
+    height: 40px;
+    border: 3px solid black; /* Línea interior */
     text-align: center;
     line-height: 50px; /* Ajustar la altura del cuadro para centrar el texto */
-    margin-bottom: 10px;
+    margin-left: 30px; /* Espacio entre las cajas */
+    justify-content: space-between;
+    margin-top: 60px;
+    
 }
 
 .container3 {
